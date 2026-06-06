@@ -1,20 +1,16 @@
-# Saas Landing Page
+# React + Vite
 
-![image](public/og-image.png)
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-🎨 Design Inspiration : https://www.figma.com/community/file/1347551304372055519
+Currently, two official plugins are available:
 
-### 🪛 Technologies used
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-- Next.js 16
-- TailwindCSS v4
-- Typescript
-- Shadcn/ui
-- Motion (originally known as framer-motion)
+## React Compiler
 
-### ☑️ How to run this project?
-To run this project on your local environment, follow the following steps :
-- Clone the repository to your local machine or download the source code.
-- Run the command `pnpm install` in the project directory to install the **required** dependencies
-- Run the command `pnpm preview` to start the `production build` of the project.
-- Open your internet browser and go to the following address: [http://localhost:3000](http://localhost:3000)
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
